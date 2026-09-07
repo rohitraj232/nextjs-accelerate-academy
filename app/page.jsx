@@ -1,9 +1,15 @@
-import Image from "next/image";
+import Hero from "@/components/home/Hero";
+import LiveSession from "@/components/home/LiveSession";
+import Testimonials from "@/components/home/Testimonials";
+import TopToppers from "@/components/home/TopToppers";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <h1>Accelerate Academy</h1>
+    <div>
+      <Hero />
+      <TopToppers />
+      <LiveSession />
+      <Testimonials />
     </div>
   );
 }
