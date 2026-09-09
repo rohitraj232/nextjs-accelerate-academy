@@ -212,28 +212,6 @@ export default function TopToppers() {
           })}
         </div>
 
-        {/* Bottom Message */}
-        <div className="mx-auto mt-20 max-w-3xl rounded-3xl border border-indigo-100 bg-indigo-50 p-8 text-center">
-
-          <div className="text-3xl">
-            🚀
-          </div>
-
-          <h3 className="mt-3 text-2xl font-bold text-slate-900">
-            Your Name Could Be Here Next!
-          </h3>
-
-          <p className="mt-2 text-slate-600">
-            Join our courses, learn from expert mentors and start your
-            journey towards achieving your dream score.
-          </p>
-
-          <button className="mt-6 rounded-xl bg-indigo-600 px-7 py-3.5 font-semibold text-white shadow-lg shadow-indigo-600/20 transition hover:bg-indigo-700 hover:shadow-xl">
-            Explore Courses →
-          </button>
-
-        </div>
-
       </div>
     </section>
   );
